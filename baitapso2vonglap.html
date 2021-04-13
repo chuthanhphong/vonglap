@@ -72,24 +72,23 @@
     // document.write("</br>");
 
     // }
-//    bai 5
-//     while (true) {
-//         let tiengui = +prompt('nhap so tien can gui');
-//         let laisuat
-//         laisuat = 1.5 * tiengui
-//         let sothang = +prompt('nhap so thang can gui');
-//         let sotiencoduoc
-//         if (tiengui == 0) {
-//             break;
-//         }else{
-//             for ( i=1;i<sothang;i++){
-//               sotiencoduoc=laisuat*i + tiengui
-//                 tiengui=sotiencoduoc
-//             }
-//         }alert( tiengui)
-//
-//
-//     }
+    //    bai 5
+
+    let tiengui = +prompt('nhap so tien can gui');
+    let laisuat = prompt(' nhap lai suat')
+    let tienlai;
+    let sothang = +prompt('nhap so thang can gui');
+    let sotiencoduoc
+
+    for (i = 1; i <= sothang; i++) {
+         tienlai= laisuat*tiengui;
+        sotiencoduoc = tiengui + tienlai
+
+        tiengui= sotiencoduoc
+
+        }alert(sotiencoduoc);
+
+    //
 
 </script>
 
